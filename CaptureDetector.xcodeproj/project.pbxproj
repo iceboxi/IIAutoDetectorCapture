@@ -12,6 +12,7 @@
 		141164B720B51E0600430BDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 141164B520B51E0600430BDB /* Main.storyboard */; };
 		141164B920B51E0900430BDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 141164B820B51E0900430BDB /* Assets.xcassets */; };
 		141164BC20B51E0900430BDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 141164BA20B51E0900430BDB /* LaunchScreen.storyboard */; };
+		1452210D20B5B80B00E6A9EB /* IIAutoDetectorCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1452210C20B5B80B00E6A9EB /* IIAutoDetectorCapture.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		141164B820B51E0900430BDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		141164BB20B51E0900430BDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		141164BD20B51E0900430BDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1452210C20B5B80B00E6A9EB /* IIAutoDetectorCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IIAutoDetectorCapture.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				141164B120B51E0600430BDB /* AppDelegate.swift */,
 				141164B320B51E0600430BDB /* ViewController.swift */,
+				1452210C20B5B80B00E6A9EB /* IIAutoDetectorCapture.swift */,
 				141164B520B51E0600430BDB /* Main.storyboard */,
 				141164B820B51E0900430BDB /* Assets.xcassets */,
 				141164BA20B51E0900430BDB /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				141164B420B51E0600430BDB /* ViewController.swift in Sources */,
+				1452210D20B5B80B00E6A9EB /* IIAutoDetectorCapture.swift in Sources */,
 				141164B220B51E0600430BDB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,7 +287,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 3JV32ZE9SY;
 				INFOPLIST_FILE = CaptureDetector/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +308,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CaptureDetector/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
